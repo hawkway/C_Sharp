@@ -31,7 +31,7 @@ namespace SystemInfo {
         // default constructor that prints information to the console for the user
 
         public InfoClass() {
-            Console.WriteLine("Machine Name: " + System.Environment.MachineName);
+            Console.WriteLine("Machine Name: " + getMachineName());
             Console.WriteLine("");
             addScript(BIOS_SERIAL);
             executeScript();
