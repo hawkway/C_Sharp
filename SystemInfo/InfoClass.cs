@@ -162,7 +162,8 @@ namespace SystemInfo {
         //---------------------------------------------------------------------------------------------------
         // write given text to specified path
 
-        private void writeToFile(string myPath, string myText){
+        private void writeToFile(string myPath, string myText)
+        {
             File.WriteAllText(myPath, myText);
         } // end overloaded
 
