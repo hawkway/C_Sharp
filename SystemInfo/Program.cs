@@ -10,7 +10,8 @@ namespace SystemInfo
     {
         static void Main(string[] args)
         {
-            InfoClass myClass = new InfoClass();
-        }
-    }
-}
+            InfoClass sysInfo = new InfoClass();
+            sysInfo.display();
+        } // end main
+    } // end program
+} // end namespace
