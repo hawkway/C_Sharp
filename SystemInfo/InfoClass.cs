@@ -215,11 +215,11 @@ namespace SystemInfoTrayApp
         // find if network device is alive/active
 
         public bool isDeviceAlive(string deviceType)
-        {
+        {deviceType
             bool result = false;
             string myIP = "";
 
-            if (deviceType.Equals("ethernet"))
+            if (.Equals("ethernet"))
             {
                 myIP = getEthernetIP();
             } // end if
